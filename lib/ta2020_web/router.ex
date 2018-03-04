@@ -15,12 +15,9 @@ defmodule Ta2020Web.Router do
 
   scope "/", Ta2020Web do
     pipe_through :browser # Use the default browser stack
-
+    get "/playground", PlaygroundController, :play
     get "/", PageController, :index
   end
 
-  # Other scopes may use custom stacks.
-  # scope "/api", Ta2020Web do
-  #   pipe_through :api
-  # end
+
 end
