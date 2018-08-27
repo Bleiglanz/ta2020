@@ -3,5 +3,4 @@
     <p>Another Text</p>
 
     <p><%= @susi  %></p>
-
 </div>
