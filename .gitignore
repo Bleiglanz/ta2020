@@ -25,3 +25,10 @@ npm-debug.log
 # secrets files as long as you replace their contents by environment
 # variables.
 /config/*.secret.exs
+#
+# anton: idea, das mix lockfile
+#
+.idea/
+.idea/*
+ta2020.iml
+mix.lock
